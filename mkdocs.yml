@@ -1,0 +1,17 @@
+site_name: Domain Pass-Through - Citrix Receiver for Linux 13.10
+site_description: Domain Pass-Through - Citrix Receiver for Linux 13.10
+theme_dir: citrix-sdk
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+     anchorlink: True
+
+pages:
+- Home: index.md
+- Domain Pass-through authentication types: authentication-types.md
+- Configuration: configuration.md
+- Credential Insertion SDK: credential-insertion-sdk.md
+- API Examples: api-examples.md
+- Launch an app/desktop: launch-application-desktop.md
