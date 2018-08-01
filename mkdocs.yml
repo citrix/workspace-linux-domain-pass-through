@@ -1,5 +1,5 @@
-site_name: Domain Pass-Through - Citrix Receiver for Linux 13.10
-site_description: Domain Pass-Through - Citrix Receiver for Linux 13.10
+site_name: Domain Pass-Through - Citrix Workspace app for Linux 1808
+site_description: Domain Pass-Through - Citrix Workspace app for Linux 1808
 theme_dir: citrix-sdk
 
 markdown_extensions:

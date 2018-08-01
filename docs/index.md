@@ -1,3 +1,3 @@
-# Domain Pass-Through - Citrix Receiver for Linux 13.10
+# Domain Pass-Through - Citrix Workspace app for Linux 1808
 
-This document describes the configuration required for the Authentication Manager component of Citrix Receiver for Linux to support Domain Pass-Through use cases.
+This document describes the configuration required for the Authentication Manager component of Citrix Workspace app for Linux to support Domain Pass-Through use cases.

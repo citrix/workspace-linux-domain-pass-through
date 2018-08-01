@@ -13,7 +13,7 @@ EnableSSOThruICAFile=*
 SSOnUserSetting=*
 ```
 
-**Important**: In addition to the changes to the All_Regions.ini file, each of these configuration options must be specifically allowed by a line in a lockdown profile. If any of these options are missing or disabled in the lockdown profile, Citrix Receiver cannot use Domain Pass-Through authentication. Lockdown profiles prevent parameters from being modified in an ICA file. (Other parameters are protected from by other mechanisms.) For more information on lockdown profiles, see the text in All\_Regions.ini.
+**Important**: In addition to the changes to the All_Regions.ini file, each of these configuration options must be specifically allowed by a line in a lockdown profile. If any of these options are missing or disabled in the lockdown profile, Citrix Workspace app cannot use Domain Pass-Through authentication. Lockdown profiles prevent parameters from being modified in an ICA file. (Other parameters are protected from by other mechanisms.) For more information on lockdown profiles, see the text in All\_Regions.ini.
 
 **Note**: Duplicate sections are not allowed in All_Regions.ini. To avoid error messages regarding duplicates, combine sections that have the same name.
 
@@ -120,7 +120,7 @@ If you can see something like the above, then Kerberos has been configured corre
 
 To remove all the tickets from the cache, use the command: `kdestroy`
 
-Once you have obtained the TGT and enabled Domain Pass-Through authentication on StoreFront, you can launch Citrix Receiver and verify that the user for whom you requested a TGT gets logged on automatically and apps/desktops are enumerated:
+Once you have obtained the TGT and enabled Domain Pass-Through authentication on StoreFront, you can launch Citrix Workspace app and verify that the user for whom you requested a TGT gets logged on automatically and apps/desktops are enumerated:
 
 ![StoreFront](./storefront.png)
 
