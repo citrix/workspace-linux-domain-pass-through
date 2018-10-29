@@ -2,9 +2,9 @@
 
 Domain Pass-Through uses Kerberos to authenticate the user to StoreFront, so Kerberos must be properly enabled and configured on the client before attempting an authentication.
 
-## Receiver settings for Domain Pass-Through
+## Citrix Workspace app settings for Domain Pass-Through
 
-To enable Domain Pass-Through on the Receiver, the following section must be added to the All_Regions.ini file located in the `$ICAROOT/config` directory:
+To enable Domain Pass-Through on the Citrix Workspace app for Linux, the following section must be added to the All_Regions.ini file located in the `$ICAROOT/config` directory:
 
 ```
 [Logon\Local Credentials]
